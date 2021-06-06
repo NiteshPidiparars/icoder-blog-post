@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block title %} Home{% endblock title %}
+{% block homeactive %} active {% endblock homeactive %}
+{% block body %}
+<div class="container my-3">
+    <div class="jumbotron my-3">
+        <h1 class="display-4">Welcome to iCoder!</h1>
+        <p class="lead">Make money online: We’re starting with the best reason first! A blog has the potential to make money every month through various methods. You can earn money through running ads, selling your own products and services, recommending other businesses with affiliate marketing, and more.
+        Build an audience: Let’s say that you are going to launch a product or a book soon and you want to build some buzz before the launch. A blog is the best way to spread the word.
+        Attract targeted leads: Maybe you already have a business and want to generate leads and get more customers. Publishing fresh content to a blog is the best way to do that.
+        Express yourself as a writer: Blogging improves your writing skills. You can share your stories, encourage people and build a community through your blogs.</p>
+        <hr class="my-4">
+        <p>A lot of people make mistakes when it comes to choosing the right blogging platform. We have covered a separate guide on how to choose the best blogging platform to help you avoid making that mistake.</p>
+        <a class="btn btn-primary btn-lg" href="/blog" role="button">Go to Blog</a>
+    </div>
+</div>
+<div class="container">
+<h2>Popular Blogposts</h2>
+<div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 my-4 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-primary">World</strong>
+          <h3 class="mb-0">Featured post</h3>
+          <div class="mb-1 text-muted">Nov 12</div>
+          <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="stretched-link">Continue reading</a>
+        </div>
+   <div class="col-auto d-none d-lg-block"></div>     
+      </div>
+      </div>
+ {% endblock %}
