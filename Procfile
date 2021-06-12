@@ -1,1 +1,1 @@
-web: waitress-serve --port=$PORT iCoder.wsgi:application
+web: gunicorn iCoder.wsgi --log-file
